@@ -8,6 +8,11 @@ Tomas Perez - tom@0x101.com
 
 http://www.tomasperez.com
 
+External dependencies
+---------------------
+mocha - https://github.com/visionmedia/mocha
+expect - https://github.com/LearnBoost/expect.js
+
 License
 -----------
 Public Domain.

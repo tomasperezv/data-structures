@@ -1,0 +1,12 @@
+[submodule "lib/external/mocha"]
+	path = lib/external/mocha
+	url = https://github.com/visionmedia/mocha.git
+[submodule "lib/external/expect"]
+	path = lib/external/expect
+	url = https://github.com/LearnBoost/expect.js.git
+[submodule "lib/external/expect.js"]
+	path = lib/external/expect.js
+	url = https://github.com/LearnBoost/expect.js
+[submodule "lib/external/sinon"]
+	path = lib/external/sinon
+	url = https://github.com/cjohansen/Sinon.JS.git
