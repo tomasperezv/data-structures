@@ -1,5 +1,5 @@
 
-describe('Node', function(){
+describe('DS.Node', function(){
 
   describe('Creation and initialization', function() {
 
