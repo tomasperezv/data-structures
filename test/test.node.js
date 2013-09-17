@@ -5,7 +5,7 @@ describe('DS.Node', function(){
 
     it('Simple creation', function() {
       var node = new DS.Node(5);
-      expect(node.getValue()).to.be(5);
+      expect(node.value()).to.be(5);
     });
 
     it('Can\'t initialize a node without a value', function() {
@@ -27,7 +27,7 @@ describe('DS.Node', function(){
       expect(nodeA.next()).to.be(null);
 
       nodeA.setNext(nodeB);
-      expect(nodeA.next().getValue()).to.be(4);
+      expect(nodeA.next().value()).to.be(4);
 
     });
 
