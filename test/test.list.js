@@ -5,7 +5,7 @@ describe('DS.List', function(){
 
     it('Simple insertion', function() {
       var list = new DS.List();
-      list.insert(new DS.Node(5));
+      list.insert(0, new DS.Node(5));
       expect(list.get(0)).to.be(5);
     });
 
@@ -13,7 +13,7 @@ describe('DS.List', function(){
 
       expect(function() {
         var list = new DS.List();
-        list.insert(5);
+        list.insert(0, 5);
       }).to.throwException();
 
     });
@@ -25,7 +25,7 @@ describe('DS.List', function(){
 
       var list = new DS.List();
       for (var i = 0; i < values.length; i++) {
-        list.insert(new DS.Node(values[i]));
+        list.insert(i, new DS.Node(values[i]));
       }
 
       for (var i = 0; i < values.length; i++) {
