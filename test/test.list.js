@@ -1,18 +1,20 @@
+var expect = require('expect.js');
+require('../lib/list');
 
-describe('DS.List', function(){
+describe('List', function(){
 
   describe('Insertion', function() {
 
     it('Simple insertion', function() {
-      var list = new DS.List();
-      list.insert(0, new DS.Node(5));
+      var list = new List();
+      list.insert(0, new Node(5));
       expect(list.get(0)).to.be(5);
     });
 
     it('Can\'t insert an invalid a value', function() {
 
       expect(function() {
-        var list = new DS.List();
+        var list = new List();
         list.insert(0, 5);
       }).to.throwException();
 
@@ -23,9 +25,9 @@ describe('DS.List', function(){
 
       var values = [1, 2, 3, 4, 5];
 
-      var list = new DS.List();
+      var list = new List();
       for (var i = 0; i < values.length; i++) {
-        list.insert(i, new DS.Node(values[i]));
+        list.insert(i, new Node(values[i]));
       }
 
       for (var i = 0; i < values.length; i++) {

@@ -1,17 +1,19 @@
+var expect = require('expect.js');
+require('../lib/node');
 
-describe('DS.Node', function(){
+describe('Node', function(){
 
   describe('Creation and initialization', function() {
 
     it('Simple creation', function() {
-      var node = new DS.Node(5);
+      var node = new Node(5);
       expect(node.value()).to.be(5);
     });
 
     it('Can\'t initialize a node without a value', function() {
 
       expect(function() {
-        var node = new DS.Node();
+        var node = new Node();
       }).to.throwException();
 
     });
@@ -21,8 +23,8 @@ describe('DS.Node', function(){
   describe('Handling next node', function() {
 
     it('Can assign a value to the next node', function() {
-      var nodeA = new DS.Node(5);
-      var nodeB = new DS.Node(4);
+      var nodeA = new Node(5);
+      var nodeB = new Node(4);
 
       expect(nodeA.next()).to.be(null);
 
@@ -33,7 +35,7 @@ describe('DS.Node', function(){
 
     it('Can\'t assign invalid values to the next node', function() {
 
-      var nodeA = new DS.Node(5);
+      var nodeA = new Node(5);
       expect(function() {
         nodeA.setNext(5);
       }).to.throwException();

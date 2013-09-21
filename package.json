@@ -1,0 +1,9 @@
+{
+	"name": "data-structures",
+	"version": "0.1.0",
+	"author": "tom@0x101.com",
+	"dependencies" : {
+		"mocha"   :  "*",
+		"expect.js"   :  "*"
+	}
+}
