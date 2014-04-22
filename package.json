@@ -4,7 +4,7 @@
   "author": "tom@0x101.com",
   "dependencies": {
     "mocha": "*",
-    "expect.js": "*"
+    "expect.js": "~0.3.1"
   },
   "description": "Experiments with data structures.",
   "main": "index.js",
