@@ -20,6 +20,31 @@ describe('Node', function(){
 
   });
 
+  describe('Handling previous node', function() {
+
+    it('Can assign a value to the previous node', function() {
+      var nodeA = new Node(5);
+      var nodeB = new Node(4);
+
+      expect(nodeA.previous()).to.be(null);
+
+      nodeA.setPrevious(nodeB);
+      expect(nodeA.previous().value()).to.be(4);
+
+    });
+
+    it('Can\'t assign invalid values to the previous node', function() {
+
+      var nodeA = new Node(5);
+      expect(function() {
+        nodeA.setPrevious(5);
+      }).to.throwException();
+
+    });
+
+  });
+
+
   describe('Handling next node', function() {
 
     it('Can assign a value to the next node', function() {
