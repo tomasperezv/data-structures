@@ -1,9 +1,33 @@
 {
-	"name": "data-structures",
-	"version": "0.1.0",
-	"author": "tom@0x101.com",
-	"dependencies" : {
-		"mocha"   :  "*",
-		"expect.js"   :  "*"
-	}
+  "name": "data-structures",
+  "version": "0.2.0",
+  "author": "tom@0x101.com",
+  "dependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "description": "Experiments with data structures.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomasperezv/data-structures.git"
+  },
+  "keywords": [
+    "data",
+    "structures"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasperezv/data-structures/issues"
+  },
+  "homepage": "https://github.com/tomasperezv/data-structures"
 }
