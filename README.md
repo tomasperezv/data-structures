@@ -1,6 +1,6 @@
 data-structures
 ===============
-Experiments with data structures.
+Experiments with data structures and algorithms.
 
 Author
 ----------
@@ -8,11 +8,27 @@ Tomas Perez - tom@0x101.com
 
 http://www.tomasperez.com
 
-External dependencies
----------------------
-mocha - https://github.com/visionmedia/mocha
+### Installation ###
 
-expect.js - https://github.com/LearnBoost/expect.js
+```shell
+$ npm install
+```
+
+### Run the tests ###
+
+If you want to run the tests, you need to install mocha globally:
+
+```shell
+$ npm install -g mocha
+```
+
+Then you can run the tests:
+
+```shell
+$ mocha ./test
+․․․․․․․․․․․․
+12 passing (305ms)
+```
 
 License
 -----------
