@@ -3,6 +3,18 @@ require('../lib/list');
 
 describe('List', function(){
 
+
+  describe('isEmpty', function() {
+
+    it('Checking if a list is empty', function() {
+      var list = new List();
+      expect(list.isEmpty()).to.be(true);
+      list.insert(0, new Node(5));
+      expect(list.isEmpty()).to.be(false);
+    });
+
+  });
+
   describe('Insertion', function() {
 
     it('Simple insertion', function() {
