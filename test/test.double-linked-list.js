@@ -31,7 +31,7 @@ describe('DoubleLinkedList', function(){
       }
 
       for (var i = 0; i < values.length; i++) {
-        //expect(list.get(i)).to.be(values[i]);
+        expect(list.get(i)).to.be(values[i]);
       }
 
     });
