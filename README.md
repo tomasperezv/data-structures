@@ -25,7 +25,7 @@ $ npm install -g mocha
 Then you can run the tests:
 
 ```shell
-$ mocha ./test
+$ npm test
 ․․․․․․․․․․․․
 12 passing (305ms)
 ```
