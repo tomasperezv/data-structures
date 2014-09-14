@@ -2,7 +2,7 @@
 
 var expect = require('expect.js');
 var BFS = require('../lib/algorithm/bfs.js');
-var NodeTree = require('../lib/node-tree');
+var TreeNode = require('../lib/tree-node');
 var Tree = require('../lib/tree');
 
 describe('BFS', function(){
@@ -11,11 +11,11 @@ describe('BFS', function(){
 
     it('BFS simple search', function() {
 
-      var root = new NodeTree(1);
-      root.setLeft(new NodeTree(2));
-      root.setRight(new NodeTree(3));
-      root.left().setLeft(new NodeTree(4));
-      root.left().setRight(new NodeTree(5));
+      var root = new TreeNode(1);
+      root.setLeft(new TreeNode(2));
+      root.setRight(new TreeNode(3));
+      root.left().setLeft(new TreeNode(4));
+      root.left().setRight(new TreeNode(5));
 
       var tree = new Tree(root);
 
