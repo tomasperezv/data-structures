@@ -19,11 +19,13 @@ describe('Tree', function(){
     });
 
     it('Simple creation', function() {
-      var root = new TreeNode(1, 2, 3);
+      var child = [
+        new TreeNode(2),
+        new TreeNode(3)
+      ];
+      var root = new TreeNode(1, child);
       var tree = new Tree(root);
       expect(tree.getRoot().value()).to.be(1);
-      expect(tree.getRoot().left()).to.be(2);
-      expect(tree.getRoot().right()).to.be(3);
     });
 
   });

@@ -11,11 +11,9 @@ describe('BFS', function(){
 
     it('BFS simple search', function() {
 
-      var root = new TreeNode(1);
-      root.setLeft(new TreeNode(2));
-      root.setRight(new TreeNode(3));
-      root.left().setLeft(new TreeNode(4));
-      root.left().setRight(new TreeNode(5));
+      var children = [new TreeNode(2), new TreeNode(3)];
+      var root = new TreeNode(1, children);
+      root.children()[0].setChildren([new TreeNode(4), new TreeNode(5)]);
 
       var tree = new Tree(root);
 
