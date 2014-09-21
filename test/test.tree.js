@@ -9,7 +9,7 @@ describe('Tree', function(){
 
     it('Empty trees', function() {
       var tree = new Tree();
-      expect(tree.getRoot()).to.be(null);
+      expect(tree.root()).to.be(null);
     });
 
     it('Leave values must be TreeNode', function() {
@@ -25,7 +25,7 @@ describe('Tree', function(){
       ];
       var root = new TreeNode(1, child);
       var tree = new Tree(root);
-      expect(tree.getRoot().value()).to.be(1);
+      expect(tree.root().value()).to.be(1);
     });
 
   });

@@ -9,7 +9,7 @@ describe('BinaryTree', function(){
 
     it('Empty BinaryTrees', function() {
       var tree = new BinaryTree();
-      expect(tree.getRoot()).to.be(null);
+      expect(tree.root()).to.be(null);
     });
 
     it('Leave values must be BinaryTreeNode', function() {
@@ -21,9 +21,9 @@ describe('BinaryTree', function(){
     it('Simple creation', function() {
       var root = new BinaryTreeNode(1, new BinaryTreeNode(2), new BinaryTreeNode(3));
       var tree = new BinaryTree(root);
-      expect(tree.getRoot().value()).to.be(1);
-      expect(tree.getRoot().left().value()).to.be(2);
-      expect(tree.getRoot().right().value()).to.be(3);
+      expect(tree.root().value()).to.be(1);
+      expect(tree.root().left().value()).to.be(2);
+      expect(tree.root().right().value()).to.be(3);
     });
 
   });

@@ -1,5 +1,5 @@
 var expect = require('expect.js');
-require('../lib/node');
+var Node = require('../lib/node');
 
 describe('Node', function(){
 
