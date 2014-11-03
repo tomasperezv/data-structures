@@ -1,3 +1,4 @@
+/*global describe, it, InsertionSort*/
 var expect = require('expect.js');
 require('../lib/algorithm/insertion-sort');
 

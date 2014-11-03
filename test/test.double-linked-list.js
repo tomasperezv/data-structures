@@ -1,3 +1,4 @@
+/*global describe, it, DoubleLinkedList*/
 var expect = require('expect.js');
 require('../lib/double-linked-list');
 var Node = require('../lib/node');
