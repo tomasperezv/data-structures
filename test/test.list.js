@@ -1,6 +1,6 @@
 /*global describe, it*/
 var expect = require('expect.js');
-require('../lib/list');
+var List = require('../lib/list');
 var Node = require('../lib/node');
 
 describe('List', function(){
