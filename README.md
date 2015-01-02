@@ -1,6 +1,6 @@
 data-structures
 ===============
-Experiments with data structures and algorithms.
+Data structures and Algorithms implemented in Javascript.
 
 Author
 ----------
