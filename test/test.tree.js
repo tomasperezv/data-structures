@@ -12,6 +12,11 @@ describe('Tree', function(){
       expect(tree.root()).to.be(null);
     });
 
+    it('isLeaf', function() {
+      var tree = new Tree(new TreeNode(5));
+      expect(tree.root().isLeaf()).to.be(true);
+    });
+
     it('Leave values must be TreeNode', function() {
       expect(function() {
         var tree = new Tree(5);
