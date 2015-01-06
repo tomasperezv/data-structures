@@ -1,7 +1,7 @@
 /*global describe, it*/
 var expect = require('expect.js');
-require('../lib/list');
-var SortedArrayToBST = require('../lib/algorithm/string/largest-common-substring');
+require('../../lib/list');
+var SortedArrayToBST = require('../../lib/algorithm/string/largest-common-substring');
 
 describe('LargestCommonSubstring', function(){
 

@@ -1,7 +1,7 @@
 /*global expect, require, describe, it, BFS, Tree*/
 
 var expect = require('expect.js');
-var TwoSum = require('../lib/algorithm/string/two-sum.js');
+var TwoSum = require('../../../lib/algorithm/string/two-sum.js');
 
 describe('Two Sum', function(){
 
