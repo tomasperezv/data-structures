@@ -112,7 +112,7 @@ $ npm test
   DoubleLinkedList
     Insertion
       ✓ Simple insertion 
-      ✓ Can't insert an invalid a value 
+      ✓ Can not insert an invalid a value 
       ✓ Can insert multiples values 
 
   HashTable
@@ -126,7 +126,7 @@ $ npm test
       ✓ Checking if a list is empty 
     Insertion
       ✓ Simple insertion 
-      ✓ Can't insert an invalid a value 
+      ✓ Can not insert an invalid a value 
       ✓ Can insert multiples values 
 
   MinHeap
@@ -136,13 +136,13 @@ $ npm test
   Node
     Creation and initialization
       ✓ Simple creation 
-      ✓ Can't initialize a node without a value 
+      ✓ Can not initialize a node without a value 
     Handling previous node
       ✓ Can assign a value to the previous node 
-      ✓ Can't assign invalid values to the previous node 
+      ✓ Can not assign invalid values to the previous node 
     Handling next node
       ✓ Can assign a value to the next node 
-      ✓ Can't assign invalid values to the next node 
+      ✓ Can not assign invalid values to the next node 
 
   SuffixTree
     Inserting words in a suffix tree
