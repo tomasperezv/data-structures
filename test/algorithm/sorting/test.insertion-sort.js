@@ -1,6 +1,6 @@
 /*global describe, it, InsertionSort*/
 var expect = require('expect.js');
-require('../lib/algorithm/sorting/insertion-sort');
+require('../../../lib/algorithm/sorting/insertion-sort');
 
 describe('Insertion sort', function() {
 
