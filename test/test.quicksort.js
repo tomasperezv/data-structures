@@ -1,6 +1,6 @@
 /*global describe, it*/
 var expect = require('expect.js');
-var QuickSort = require('../lib/algorithm/quicksort');
+var QuickSort = require('../lib/algorithm/sorting/quicksort');
 
 describe('Quick sort', function() {
 

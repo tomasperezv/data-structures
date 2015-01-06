@@ -1,6 +1,6 @@
 /*global describe, it*/
 var expect = require('expect.js');
-var MergeSort = require('../lib/algorithm/merge-sort');
+var MergeSort = require('../lib/algorithm/sorting/merge-sort');
 
 describe('Merge sort', function() {
 
