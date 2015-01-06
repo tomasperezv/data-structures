@@ -1,7 +1,7 @@
 var expect = require('expect.js');
-var DFS = require('../lib/algorithm/dfs.js');
-var TreeNode = require('../lib/tree-node');
-var Tree = require('../lib/tree');
+var DFS = require('../../lib/algorithm/dfs.js');
+var TreeNode = require('../../lib/tree-node');
+var Tree = require('../../lib/tree');
 
 describe('DFS', function(){
 

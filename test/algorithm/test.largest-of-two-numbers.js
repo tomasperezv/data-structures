@@ -1,7 +1,7 @@
 /*global describe, it*/
 var expect = require('expect.js');
-require('../lib/list');
-var LargestOfTwoNumbers = require('../lib/algorithm/largest-of-two-numbers');
+require('../../lib/list');
+var LargestOfTwoNumbers = require('../../lib/algorithm/largest-of-two-numbers');
 
 describe('LargestOfTwoNumbers', function(){
 

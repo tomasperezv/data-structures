@@ -1,7 +1,7 @@
 /*global describe, it*/
 var expect = require('expect.js');
-require('../lib/list');
-var SortedArrayToBST = require('../lib/algorithm/sorted-array-to-bst');
+require('../../lib/list');
+var SortedArrayToBST = require('../../lib/algorithm/sorted-array-to-bst');
 
 describe('SortedArrayToBST', function(){
 

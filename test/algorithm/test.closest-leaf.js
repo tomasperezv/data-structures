@@ -1,7 +1,7 @@
 var expect = require('expect.js');
-var ClosestLeaf = require('../lib/algorithm/closest-leaf');
-var BinaryTree = require('../lib/binary-tree');
-var BinaryTreeNode = require('../lib/binary-tree-node');
+var ClosestLeaf = require('../../lib/algorithm/closest-leaf');
+var BinaryTree = require('../../lib/binary-tree');
+var BinaryTreeNode = require('../../lib/binary-tree-node');
 
 describe('Closest leaf', function(){
 
