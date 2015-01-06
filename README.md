@@ -26,6 +26,7 @@ Then you can run the tests:
 
 ```shell
 $ npm test
+
   BinaryOperator
     getBit
       ✓ Returning bits 
