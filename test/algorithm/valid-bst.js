@@ -15,6 +15,8 @@ describe('Valid Binary Search Tree', function(){
       var validBST = new ValidBST();
       expect(validBST.solve(tree)).eql(true);
 
+      expect(validBST.solve(new BinarySearchTree())).eql(true);
+
     });
 
   });
