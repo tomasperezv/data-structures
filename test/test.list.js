@@ -1,4 +1,3 @@
-/*global describe, it*/
 var expect = require('expect.js');
 var List = require('../lib/list');
 var Node = require('../lib/node');
@@ -37,14 +36,15 @@ describe('List', function(){
 
     it('Can insert multiples values', function() {
 
+      var i;
       var values = [1, 2, 3, 4, 5];
 
       var list = new List();
-      for (var i = 0; i < values.length; i++) {
+      for (i = 0; i < values.length; i++) {
         list.insert(i, new Node(values[i]));
       }
 
-      for (var i = 0; i < values.length; i++) {
+      for (i = 0; i < values.length; i++) {
         expect(list.get(i)).to.be(values[i]);
       }
 

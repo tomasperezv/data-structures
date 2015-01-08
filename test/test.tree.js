@@ -1,4 +1,3 @@
-/*global describe, it*/
 var expect = require('expect.js');
 var Tree = require('../lib/tree');
 var TreeNode = require('../lib/tree-node');

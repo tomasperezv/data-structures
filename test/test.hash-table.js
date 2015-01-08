@@ -1,4 +1,3 @@
-/*global describe, it*/
 var expect = require('expect.js');
 var HashTable = require('../lib/hash-table');
 

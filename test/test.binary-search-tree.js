@@ -1,4 +1,3 @@
-/*global describe, it*/
 var expect = require('expect.js');
 var BinarySearchTree = require('../lib/binary-search-tree');
 
