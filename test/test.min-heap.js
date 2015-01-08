@@ -1,6 +1,5 @@
 /*global describe, it*/
 var expect = require('expect.js');
-require('../lib/list');
 var MinHeap = require('../lib/min-heap');
 
 describe('MinHeap', function(){
