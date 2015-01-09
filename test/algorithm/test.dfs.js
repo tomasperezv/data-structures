@@ -18,7 +18,7 @@ describe('DFS', function(){
       root.children()[0].setChildren([new TreeNode(4), new TreeNode(5)]);
 
       return new Tree(root);
-    }
+    };
 
     it('DFS simple search, iterative version', function() {
 
@@ -32,7 +32,7 @@ describe('DFS', function(){
 
     it('DFS simple search, recursive version', function() {
 
-      var tree = generateTree()
+      var tree = generateTree();
 
       var dfs = new DFS();
       var result = dfs.solveIterative(tree.root());

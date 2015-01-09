@@ -1,5 +1,3 @@
-/*global expect, require, describe, it, BFS, Tree*/
-
 var expect = require('expect.js');
 var BFS = require('../../lib/algorithm/bfs.js');
 var TreeNode = require('../../lib/tree-node');

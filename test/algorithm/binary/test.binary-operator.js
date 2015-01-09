@@ -1,5 +1,3 @@
-/*global expect, require, describe, it, BFS, Tree*/
-
 var expect = require('expect.js');
 var BinaryOperator = require('../../../lib/algorithm/binary/operators.js');
 

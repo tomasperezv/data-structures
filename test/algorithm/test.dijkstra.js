@@ -1,5 +1,3 @@
-/*global expect, require, describe, it, Dijkstra*/
-
 var expect = require('expect.js');
 var Dijkstra = require('../../lib/algorithm/dijkstra.js');
 
