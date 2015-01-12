@@ -1,8 +1,8 @@
 /*global require, describe, it*/
 
 var expect = require('expect.js'),
-    BinaryTree = require('../../lib/binary-tree.js'),
-    BinaryTreeNode = require('../../lib/binary-tree-node.js'),
+    BinaryTree = require('../../lib/tree/binary-tree.js'),
+    BinaryTreeNode = require('../../lib/tree/binary-tree-node.js'),
     TreeTraverse = require('../../lib/algorithm/tree-traverse.js');
 
 describe('TreeTraverse', function(){

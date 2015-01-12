@@ -1,5 +1,5 @@
 var expect = require('expect.js');
-var Trie = require('../lib/trie');
+var Trie = require('../../lib/tree/trie');
 
 describe('Trie', function(){
 

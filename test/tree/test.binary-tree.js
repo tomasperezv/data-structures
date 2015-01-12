@@ -1,6 +1,6 @@
 var expect = require('expect.js');
-var BinaryTree = require('../lib/binary-tree');
-var BinaryTreeNode = require('../lib/binary-tree-node');
+var BinaryTree = require('../../lib/tree/binary-tree');
+var BinaryTreeNode = require('../../lib/tree/binary-tree-node');
 
 describe('BinaryTree', function(){
 

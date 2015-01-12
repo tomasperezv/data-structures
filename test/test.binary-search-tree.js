@@ -1,5 +1,5 @@
 var expect = require('expect.js');
-var BinarySearchTree = require('../lib/binary-search-tree');
+var BinarySearchTree = require('../lib/tree/binary-search-tree');
 
 describe('BinaryTree', function(){
 

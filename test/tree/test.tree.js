@@ -1,6 +1,6 @@
 var expect = require('expect.js');
-var Tree = require('../lib/tree');
-var TreeNode = require('../lib/tree-node');
+var Tree = require('../../lib/tree/tree');
+var TreeNode = require('../../lib/tree/tree-node');
 
 describe('Tree', function(){
 

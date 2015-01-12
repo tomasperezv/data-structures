@@ -1,5 +1,5 @@
 var expect = require('expect.js');
-var SuffixTree = require('../lib/suffix-tree');
+var SuffixTree = require('../../lib/tree/suffix-tree');
 
 describe('SuffixTree', function(){
 

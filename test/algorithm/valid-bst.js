@@ -1,7 +1,7 @@
 var expect = require('expect.js');
 var ValidBST = require('../../lib/algorithm/valid-bst');
-var BinaryTreeNode = require('../../lib/binary-tree-node');
-var BinarySearchTree = require('../../lib/binary-search-tree');
+var BinaryTreeNode = require('../../lib/tree/binary-tree-node');
+var BinarySearchTree = require('../../lib/tree/binary-search-tree');
 
 describe('Valid Binary Search Tree', function(){
 

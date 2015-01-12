@@ -1,7 +1,7 @@
 var expect = require('expect.js');
 var BFS = require('../../lib/algorithm/bfs.js');
-var TreeNode = require('../../lib/tree-node');
-var Tree = require('../../lib/tree');
+var TreeNode = require('../../lib/tree/tree-node');
+var Tree = require('../../lib/tree/tree');
 
 describe('BFS', function(){
 
