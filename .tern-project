@@ -1,0 +1,15 @@
+{
+  "libs": [
+    "browser",
+    "jquery"
+  ],
+  "loadEagerly":
+    ["./lib/**/*.js", "./test/**/*.js"]
+  ,
+  "plugins": {
+    "node": {},
+    "doc_comment": {
+      "fullDocs": true
+    }
+  }
+}
