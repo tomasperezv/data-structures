@@ -5,7 +5,7 @@ describe('Bipartition of a graph', function(){
 
   var twoColor = null;
 
-  before(function() {
+  beforeEach(function() {
     twoColor = new TwoColor('red', 'yellow');
   });
 
