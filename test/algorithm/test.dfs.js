@@ -35,7 +35,7 @@ describe('DFS', function(){
       var tree = generateTree();
 
       var dfs = new DFS();
-      var result = dfs.solveIterative(tree.root());
+      var result = dfs.solveRecursive(tree.root());
       expect(result).eql([1, 2, 4, 5, 3]);
 
     });
