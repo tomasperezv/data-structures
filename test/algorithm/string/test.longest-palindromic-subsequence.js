@@ -7,9 +7,9 @@ describe('Longest Palindromic Subsequence', function(){
 
     describe('Solve algorithm', function() {
       var longestPalindromicSubsequence = new LongestPalindromicSubsequence();
-      expect(longestPalindromicSubsequence.solve('abcd')).eql(1);
-      expect(longestPalindromicSubsequence.solve('abbd')).eql(2);
-      expect(longestPalindromicSubsequence.solve('acbc')).eql(3);
+      expect(longestPalindromicSubsequence.solve('a')).eql(1);
+      expect(longestPalindromicSubsequence.solve('aa')).eql(2);
+      expect(longestPalindromicSubsequence.solve('aba')).eql(3);
     });
 
   });
