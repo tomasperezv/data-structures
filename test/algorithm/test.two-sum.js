@@ -1,5 +1,5 @@
 var expect = require('expect.js');
-var TwoSum = require('../../../lib/algorithm/string/two-sum.js');
+var TwoSum = require('../../lib/algorithm/two-sum.js');
 
 describe('Two Sum', function(){
 
