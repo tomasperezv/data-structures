@@ -3,8 +3,9 @@
   "version": "0.2.0",
   "author": "tom@0x101.com",
   "dependencies": {
+    "expect.js": "~0.3.1",
     "mocha": "*",
-    "expect.js": "~0.3.1"
+    "sinon": "^1.16.1"
   },
   "description": "Experiments with data structures.",
   "main": "index.js",
