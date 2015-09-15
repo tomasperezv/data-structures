@@ -23,16 +23,15 @@ describe('Topological sorting', function(){
     it('Multiple nodes', function() {
 
       var adjacency = [
-                      [0, 1, 1, 1, 0],
-                      [0, 0, 1, 0, 0],
-                      [0, 0, 1, 0, 0],
-                      [0, 0, 0, 0, 1],
-                      [0, 0, 0, 0, 0]
+                      [0, 1, 1, 0],
+                      [0, 0, 0, 1],
+                      [0, 0, 0, 0],
+                      [0, 0, 1, 0],
                       ];
 
       var topologicalOrdering = new TopologicalOrdering();
       var result = topologicalOrdering.solve(adjacency);
-      expect(result).eql([0, 1, 2, 3, 4]);
+      expect(result).eql([0, 1, 3, 2]);
     });
 
   });
