@@ -42,6 +42,10 @@ describe('HashTable', function(){
 
     it('Hash function', function() {
       var hashTable = new HashTable();
+      expect(hashTable._hash('')).to.be(0);
+      expect(hashTable._hash('a')).to.be(0);
+      expect(hashTable._hash('b')).to.be(1);
+      expect(hashTable._hash('c')).to.be(2);
     });
 
   });
