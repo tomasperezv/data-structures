@@ -12,10 +12,7 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {
-    "mocha": "~1.13.0"
-  },
-  "scripts": {
+ "scripts": {
     "test": "mocha"
   },
   "repository": {
