@@ -1,7 +1,7 @@
 {
-  "name": "data-structures",
+  "name": "@tomasperezv/data-structures",
   "version": "0.2.0",
-  "author": "tom@0x101.com",
+  "author": "t@0x101.com",
   "dependencies": {
     "expect.js": "~0.3.1",
     "mocha": "*",
