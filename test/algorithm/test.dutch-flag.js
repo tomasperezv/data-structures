@@ -20,6 +20,7 @@ describe('DutchFlag', function(){
       expect(dutchFlag.solve([-1, -1, 0, 0, 1])).eql([-1, -1, 0, 0, 1]);
       expect(dutchFlag.solve([0, 0, 1, -1, -1])).eql([-1, -1, 0, 0, 1]);
       expect(dutchFlag.solve([1, -1, -1, 0, 0])).eql([-1, -1, 0, 0, 1]);
+      expect(dutchFlag.solve([0, -1, -1, 1, 0])).eql([-1, -1, 0, 0, 1]);
     });
   });
 });
